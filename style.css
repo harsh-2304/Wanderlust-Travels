@@ -1,152 +1,161 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-line-height: 1.6;
-background-color: #098cc0;
-font-family: "Roboto", sans-serif;
-display: block;
-scroll-behavior: smooth;
-cursor: pointer;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #098cc0;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    scroll-behavior: smooth;
+    cursor: pointer;
+  
 }
 .logo{
-color: rgb(250, 246, 246);
-font-family: 'Playfair Display', serif;
+    color: rgb(250, 246, 246);
+    font-family: 'Playfair Display', serif;
 }
 .logo:hover{
-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 header {
-background: url('bg.png') no-repeat center center/cover;
-height: 100vh;
-color: rgb(0, 0, 0);
-position: relative;
-font-size: larger;
+    background: url('bg.png') no-repeat center center/cover;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-size: larger;
 }
 .btn {
-padding: 12px 24px;
-font-size: 1.1rem;
-color: white;
-background-color: #1394c7;
-border: none;
-border-radius: 8px;
-text-decoration: none;
-cursor: pointer;
-transition : background 0.3s ease;
-font-family: 'Playfair Display', serif;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #1394c7;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition : background 0.3s ease;
+    font-family: 'Playfair Display', serif;
 }
 .hero h1 {
-font-size: 4rem;
-font-weight: 700;
-font-family: 'Playfair Display', serif;  
-color: #0a0a0a;
-text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-margin-bottom: 20px;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;  
+    color: #0a0a0a;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
 }
+
 .btn:hover {
-background-color: #04154e;
+    background-color: #04154e;
 }
 nav {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: rgb(41, 169, 219);
-cursor: pointer;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-z-index: 1000;
-justify-content: space-between;
-padding: 20px;
-backdrop-filter: blur(100px);
-background: url('hd.jpg') no-repeat center center/cover;
-color: rgb(248, 247, 247);
-font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(41, 169, 219);
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: space-between;
+    padding: 20px;
+    backdrop-filter: blur(100px);
+    background: url('hd.jpg') no-repeat center center/cover;
+    color: rgb(248, 247, 247);
+    font-size: larger;
 }
 .logo {
-font-size: 2rem;
-font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold;
 }
 .nav-links {
-font-family: 'Playfair Display', serif;
-list-style: none;
-display: flex;
-gap: 20px;
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 .nav-links a {
-color: white;
-text-decoration: none;
-font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 .nav-links a:hover {
-color: #04154e;
+    color: #04154e;
 }
 .hero {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-font-family: 'Great Vibes', cursive;
-font-size: 1.3rem;
-font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
+
 .hero h1 {
-font-size: 3rem;
-margin-bottom: 10px;
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
+
 .about, .tours, .contact {
-padding: 60px 20px;
-font-family: 'Playfair Display', serif;
-text-align: center;
-font-size: 1.3rem;
-font-weight: 200;
+    padding: 60px 20px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 200;
 }
 .about h2 {
-font-size: 3rem;
-font-weight: 700;
-font-family: 'Playfair Display', serif;  
-color: #0a0a0a;
-text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;  
+    color: #0a0a0a;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
 }
 .about {
-background-color: #f0f0f0;
-padding: 105px 200px;
-text-align: center;   
-background: url('gh.jpg') no-repeat center center/cover;
+    background-color: #f0f0f0;
+    padding: 105px 200px;
+    text-align: center;   
+    background: url('gh.jpg') no-repeat center center/cover;
 }
 .about p{
-font-size: 1.5rem;
-font-weight: 600;
-text-align: center;
-top:50%;
-left:30%;
-font-size: 1.6rem;
+     font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    top:50%;
+    left:30%;
+    font-size: 1.6rem;
 }
 .tour-card {
-background-color: rgb(36, 137, 204);
-box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: rgb(36, 137, 204);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .tours {
-padding: 60px 20px;
-text-align: center;
-font-family: 'Playfair Display', serif;
-background: url('ab.jpg') no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background: url('ab.jpg') no-repeat center center/cover;
 }
 footer {
-background-color: #222;
-color: #ddd;
-text-align: center;
-padding: 20px;
+    background-color: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 20px;
 }
 .contact {
-padding: 60px 20px;
-text-align: center;
-font-family: 'Playfair Display', serif;
-background: url('gh.jpg') no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background: url('gh.jpg') no-repeat center center/cover;
 }
